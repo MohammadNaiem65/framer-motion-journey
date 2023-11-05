@@ -2,6 +2,7 @@ import {
 	AnimationControls,
 	BasicsOfFramerMotion,
 	Gestures,
+	ScrollBaseAnimation,
 	ViewBaseAnimation,
 } from './components';
 
@@ -17,7 +18,8 @@ function App() {
 			{/* <BasicsOfFramerMotion /> */}
 			{/* <Gestures /> */}
 			{/* <AnimationControls /> */}
-			<ViewBaseAnimation />
+			{/* <ViewBaseAnimation /> */}
+			<ScrollBaseAnimation />
 		</div>
 	);
 }
