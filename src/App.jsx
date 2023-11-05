@@ -1,5 +1,8 @@
-import BasicsOfFramerMotion from './components/BasicsOfFramerMotion';
-import Gestures from './components/Gestures';
+import {
+	AnimationControls,
+	BasicsOfFramerMotion,
+	Gestures,
+} from './components';
 
 function App() {
 	return (
@@ -11,7 +14,8 @@ function App() {
 				placeItems: 'center',
 			}}>
 			{/* <BasicsOfFramerMotion /> */}
-			<Gestures />
+			{/* <Gestures /> */}
+			<AnimationControls />
 		</div>
 	);
 }
