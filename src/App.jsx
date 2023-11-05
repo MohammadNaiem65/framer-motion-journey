@@ -1,4 +1,5 @@
 import BasicsOfFramerMotion from './components/BasicsOfFramerMotion';
+import Gestures from './components/Gestures';
 
 function App() {
 	return (
@@ -9,7 +10,8 @@ function App() {
 				display: 'grid',
 				placeItems: 'center',
 			}}>
-			<BasicsOfFramerMotion />
+			{/* <BasicsOfFramerMotion /> */}
+			<Gestures />
 		</div>
 	);
 }
