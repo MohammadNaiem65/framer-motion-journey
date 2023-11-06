@@ -4,6 +4,7 @@ import {
 	BasicsOfFramerMotion,
 	Gestures,
 	HorizontalScrollCarousel,
+	MultiStepCard,
 	ScrollBaseAnimation,
 	ViewBaseAnimation,
 } from './components';
@@ -16,7 +17,8 @@ function App() {
 			{/* <AnimationControls /> */}
 			{/* <ViewBaseAnimation /> */}
 			{/* <ScrollBaseAnimation /> */}
-			<AdvancedAnimation />
+			{/* <AdvancedAnimation /> */}
+			<MultiStepCard />
 		</div>
 
 		// <div className='bg-neutral-800'>
