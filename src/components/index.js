@@ -4,3 +4,4 @@ export { default as AnimationControls } from './AnimationControls';
 export { default as ViewBaseAnimation } from './ViewBaseAnimation';
 export { default as ScrollBaseAnimation } from './ScrollBaseAnimation';
 export { default as HorizontalScrollCarousel } from './HorizontalScrollCarousel';
+export { default as AdvancedAnimation } from './AdvancedAnimation';
